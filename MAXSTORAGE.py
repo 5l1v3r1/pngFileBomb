@@ -30,6 +30,9 @@ class png():
 
         elif system == "Windows":
             self.dosyala(self.windows_locale)
+
+        else:
+            self.dosyala(self.undefinied)
     
     
     def dosyala(self,__konum__):
